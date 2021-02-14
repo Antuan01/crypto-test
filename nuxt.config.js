@@ -11,7 +11,37 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Super Cripto Inbalanced Market'},
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Crazy Crykto Things',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'Super Cripto Inbalanced Market'
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'website',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://cripto.antuan01.com'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://i.ibb.co/zbLTV3B/pic.png'
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'Antuan Website'
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

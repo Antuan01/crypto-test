@@ -38,13 +38,6 @@ export default {
   head () {
     return {
       title: 'Cryktomania',
-      meta: [
-        {
-          hid: 'Antuan',
-          name: 'Nautna',
-          description: 'Crazy Crykto Things'
-        }
-      ]
     }
   }
 }
