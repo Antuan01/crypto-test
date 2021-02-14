@@ -1,14 +1,54 @@
 <template>
-    <div>
-      <Price />
+    <div class="flex">
+      <Price
+      v-for="cur in currency"
+      :key="cur.id"
+      :currency="cur"
+      />
       </div>
     </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      currency: [
+        {
+          id: 1,
+          measure: 'USD/BTC',
+          name: 'BTC',
+          point: 'BTCUSDT'
+        },
+        {
+          id: 2,
+          measure: 'USD/ETH',
+          name: 'ETH',
+          point: 'ETHUSDT'
+        },
+        {
+          id: 3,
+          measure: 'USD/DOGE',
+          name: 'DOGE',
+          point: 'DOGEUSDT'
+        }
+      ]
+    }
+  },
+  head () {
+    return {
+      title: 'Cryktomania',
+      meta: [
+        {
+          hid: 'Antuan',
+          name: 'Nautna',
+          description: 'Crazy Crykto Things'
+        }
+      ]
+    }
+  }
+}
 </script>
-
 <style>
 
 </style>
