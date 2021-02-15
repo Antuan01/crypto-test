@@ -37,7 +37,7 @@ export default {
   },
   head () {
     return {
-      title: 'Cryktomania',
+      title: 'Cryktomania'
     }
   }
 }
