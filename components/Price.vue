@@ -1,12 +1,14 @@
 <template>
-    <div >
-        <p> {{ currency.name }} </p>
-        <p> Price:  {{ amount.slice(0, 9) }} {{ currency.measure }} </p>
-        <button @click="$fetch"> Refresh </button>
+    <div class="nes-container with-title is-rounded margin">
+        <p class="title"> {{ currency.name }} </p>
+        <p> <span class="nes-text is-primary"> Price: </span>  {{ amount.slice(0, 9) }} {{ currency.measure }} </p>
+        <button class="nes-btn" @click="$fetch"> Refresh </button>
     </div>
 </template>
 
 <script>
+import 'nes.css/css/nes.min.css'
+
 export default {
   data () {
     return {
@@ -26,3 +28,11 @@ export default {
   }
 }
 </script>
+
+<style>
+
+.margin {
+    margin: 1rem !important;
+}
+
+</style>
