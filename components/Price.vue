@@ -1,7 +1,7 @@
 <template>
     <div class="nes-container with-title is-rounded margin">
         <p class="title"> {{ currency.name }} </p>
-        <p> <span class="nes-text is-primary"> Price: </span>  {{ amount.slice(0, 9) }} {{ currency.measure }} </p>
+        <p>  Price: {{ amount.slice(0, 9) }} {{ currency.measure }} </p>
         <button class="nes-btn" @click="$fetch"> Refresh </button>
     </div>
 </template>

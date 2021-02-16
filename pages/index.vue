@@ -1,5 +1,5 @@
 <template>
-    <div class="flex p-6">
+    <div class="flex flex-wrap p-6">
       <Price
       v-for="cur in currency"
       :key="cur.id"
