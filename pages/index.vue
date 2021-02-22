@@ -31,8 +31,14 @@ export default {
           measure: 'USD/DOGE',
           name: 'DOGE',
           point: 'DOGEUSDT'
+        },
+        {
+          id: 4,
+          measure: 'USD/XMR',
+          name: 'MONERO',
+          point: 'XMRUSDT'
         }
-      ]
+     ]
     }
   },
   head () {
