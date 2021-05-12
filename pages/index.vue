@@ -1,12 +1,12 @@
 <template>
-    <div class="flex flex-wrap p-6">
-      <Price
+  <div class="flex flex-wrap p-6">
+    <Price
       v-for="cur in currency"
       :key="cur.id"
       :currency="cur"
-      />
-      </div>
-    </div>
+    />
+  </div>
+  </div>
 </template>
 
 <script>
@@ -37,8 +37,32 @@ export default {
           measure: 'USD/XMR',
           name: 'MONERO',
           point: 'XMRUSDT'
+        },
+        {
+          id: 5,
+          measure: 'USD/XRP',
+          name: 'RIPPLE',
+          point: 'XRPUSDT'
+        },
+        {
+          id: 6,
+          measure: 'USD/ADA',
+          name: 'CARDANO',
+          point: 'ADAUSDT'
+        },
+        {
+          id: 7,
+          measure: 'USD/LINK',
+          name: 'CHAINLINK',
+          point: 'LINKUSDT'
+        },
+        {
+          id: 8,
+          measure: 'USD/DAI',
+          name: 'MARKETDAO',
+          point: 'DAIUSDT'
         }
-     ]
+      ]
     }
   },
   head () {

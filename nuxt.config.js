@@ -11,13 +11,13 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Super Cripto Inbalanced Market'},
-      { hid: 'title', name: 'title', content: 'Crazy Crykto Things'},
-      { hid: 'image', name: 'image', content: 'https://i.ibb.co/zbLTV3B/pic.png'},
+      { hid: 'description', name: 'description', content: 'Super Cripto Inbalanced Market' },
+      { hid: 'title', name: 'title', content: 'Crazy Crykto Things' },
+      { hid: 'image', name: 'image', content: 'https://i.ibb.co/zbLTV3B/pic.png' },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Crazy Crykto Things',
+        content: 'Crazy Crykto Things'
       },
       {
         hid: 'og:description',
@@ -27,7 +27,7 @@ export default {
       {
         hid: 'og:type',
         property: 'og:type',
-        content: 'website',
+        content: 'website'
       },
       {
         hid: 'og:url',
@@ -43,7 +43,7 @@ export default {
         hid: 'og:site_name',
         property: 'og:site_name',
         content: 'Antuanomicon'
-      },
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
